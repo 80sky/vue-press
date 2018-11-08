@@ -28,7 +28,8 @@ module.exports = {
           title: 'VUE',
           collapsable: true,
           children: [
-            'keep-alive'
+            'keep-alive',
+            'axios'
           ]
         },
         {
