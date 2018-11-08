@@ -25,6 +25,13 @@ module.exports = {
           ]
         },
         {
+          title: 'VUE',
+          collapsable: true,
+          children: [
+            'keep-alive'
+          ]
+        },
+        {
           title: 'CANVAS',
           children: [ /* ... */ ]
         }
