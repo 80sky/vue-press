@@ -14,10 +14,29 @@ module.exports = {
     ],
     sidebar: {
       '/web/': [
-        '',
+        {
+          title: '工具类',
+          collapsable: true,
+          children: [
+            '',
+            'json-tree',
+            'heightlight',
+            'date-format'
+          ]
+        },
+        {
+          title: 'CANVAS',
+          children: [ /* ... */ ]
+        }
       ],
       '/about/':[
-        ''
+        {
+          title: 'SunnyLi',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        },
       ]
     },
     sidebarDepth: 2,
