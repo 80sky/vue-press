@@ -29,7 +29,8 @@ module.exports = {
           collapsable: true,
           children: [
             'keep-alive',
-            'axios'
+            'axios',
+            'vux-load-more'
           ]
         },
         {
@@ -48,6 +49,6 @@ module.exports = {
       ]
     },
     sidebarDepth: 2,
-    lastUpdated: 'Last Updated', 
+    // lastUpdated: 'Last Updated', 
   },
 }
