@@ -21,7 +21,8 @@ module.exports = {
             '',
             'json-tree',
             'heightlight',
-            'date-format'
+            'date-format',
+            'util'
           ]
         },
         {
