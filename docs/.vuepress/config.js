@@ -22,7 +22,8 @@ module.exports = {
             'json-tree',
             'heightlight',
             'date-format',
-            'util'
+            'util',
+            'split-file-name'
           ]
         },
         {
