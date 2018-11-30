@@ -23,7 +23,8 @@ module.exports = {
             'heightlight',
             'date-format',
             'util',
-            'split-file-name'
+            'split-file-name',
+            'array-move'
           ]
         },
         {
