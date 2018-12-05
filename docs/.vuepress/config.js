@@ -39,6 +39,12 @@ module.exports = {
         {
           title: 'CANVAS',
           children: [ /* ... */ ]
+        },
+        {
+          title: 'Ztree',
+          children: [ 
+            'ztree'
+          ]
         }
       ],
       '/about/':[
