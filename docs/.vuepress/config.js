@@ -41,9 +41,10 @@ module.exports = {
           children: [ /* ... */ ]
         },
         {
-          title: 'Ztree',
+          title: 'JQuery',
           children: [ 
-            'ztree'
+            'ztree',
+            'fullCalendar'
           ]
         }
       ],
