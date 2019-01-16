@@ -38,7 +38,10 @@ module.exports = {
         },
         {
           title: 'CANVAS',
-          children: [ /* ... */ ]
+          children: [ 
+            'rain',
+            'particle'
+           ]
         },
         {
           title: 'JQuery',
