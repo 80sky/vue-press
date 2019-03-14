@@ -1,67 +1,53 @@
 module.exports = {
-  title: 'SunnyLi',
-  description: 'sunny',
-  port:'8888',
-  head: [
-    ['link', { rel: 'icon', href: `/avatar.png` }]   
-  ],
+  title: "SunnyLi",
+  description: "sunny",
+  port: "8888",
+  head: [["link", { rel: "icon", href: `/avatar.png` }]],
   themeConfig: {
     nav: [
-      { text: '主页', link: '/' },
-      { text: '博文', link: '/web/'},
-      { text: '关于', link: '/about/' },
-      { text: 'Github', link: 'https://github.com/80sky' },
+      { text: "主页", link: "/" },
+      { text: "博文", link: "/web/" },
+      { text: "关于", link: "/about/" },
+      { text: "Github", link: "https://github.com/80sky" }
     ],
     sidebar: {
-      '/web/': [
+      "/web/": [
         {
-          title: '工具类',
+          title: "工具类",
           collapsable: true,
           children: [
-            '',
-            'json-tree',
-            'heightlight',
-            'date-format',
-            'util',
-            'split-file-name',
-            'array-move'
+            "",
+            "json-tree",
+            "heightlight",
+            "date-format",
+            "util",
+            "split-file-name",
+            "array-move"
           ]
         },
         {
-          title: 'VUE',
+          title: "VUE",
           collapsable: true,
-          children: [
-            'keep-alive',
-            'axios',
-            'vux-load-more'
-          ]
+          children: ["keep-alive", "axios", "vux-load-more"]
         },
         {
-          title: 'CANVAS',
-          children: [ 
-            'rain',
-            'particle'
-           ]
+          title: "CANVAS",
+          children: ["rain", "particle"]
         },
         {
-          title: 'JQuery',
-          children: [ 
-            'ztree',
-            'fullCalendar'
-          ]
+          title: "JQuery",
+          children: ["ztree", "fullCalendar", "stock"]
         }
       ],
-      '/about/':[
+      "/about/": [
         {
-          title: 'SunnyLi',
+          title: "SunnyLi",
           collapsable: false,
-          children: [
-            ''
-          ]
-        },
+          children: [""]
+        }
       ]
     },
-    sidebarDepth: 2,
-    // lastUpdated: 'Last Updated', 
-  },
-}
+    sidebarDepth: 2
+    // lastUpdated: 'Last Updated',
+  }
+};
