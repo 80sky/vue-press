@@ -28,7 +28,7 @@ module.exports = {
         {
           title: "VUE",
           collapsable: true,
-          children: ["keep-alive", "axios", "vux-load-more"]
+          children: ["keep-alive", "axios", "vux-load-more", "table"]
         },
         {
           title: "CANVAS",
